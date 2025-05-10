@@ -1,0 +1,35 @@
+{
+  "name": "framework-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node src/index.ts"
+  }
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanPabloGomez-QA/RepositorioBaseAutomatizacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JuanPabloGomez-QA/RepositorioBaseAutomatizacion/issues"
+  },
+  "homepage": "https://github.com/JuanPabloGomez-QA/RepositorioBaseAutomatizacion#readme",
+  "dependencies": {
+    "@serenity-js/core": "^2.24.0",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "playwright": "^1.52.0",
+    "supertest": "^7.1.0",
+    "ts-jest": "^29.3.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
